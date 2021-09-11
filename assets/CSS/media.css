@@ -1,0 +1,1131 @@
+@media screen and (max-width: 1400px){
+    .startAnim{
+        display: none;
+    }
+    .mobBanka{
+        display: block;
+    }
+    .sostav {
+        padding-top: 165px;
+    }
+    .sostav__banka{
+        display: block;
+    }
+    .perks__banka{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 1300px){
+    .sertif__content{
+        padding-left: 550px;
+    }
+    .header__nav {
+        padding-left: 70px;
+    }
+    .firstscreen__logo{
+        width: 95%;
+    }
+    .povar__content{
+        display: flex;
+        flex-direction: column;
+        grid-row-gap: 25px;
+    }
+    .povar__block{
+        max-width: 350px;
+    }
+    .povar__bg {
+        left: unset;
+        right: -200px;
+        transform: translate(0,0);
+        width: 740px;
+
+    }
+    .povar__logo{
+        width:96%;
+    }
+    .povar__black{
+        opacity: 0;
+    }
+    .povar{
+        padding-top: 420px;
+        padding-bottom: 270px;
+    }
+    .cheese .container {
+        max-width: 1230px;
+        padding: 0;
+    }
+    .cheese__imgs{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .povar{
+        padding-bottom: 230px;
+        padding-top: 350px;
+    }
+    .sostav__left {
+        max-width: 325px;
+    }
+    .sostav__right {
+        max-width: 325px;
+    }
+    .perks .container{
+        grid-column-gap: 400px;
+    }
+    .sertif__content{
+        padding-left: 450px;
+    }
+    .contacts .container {
+        flex-direction: column;
+    }
+    .contacts__form{
+        padding-top: 90px;
+    }
+    .footer__content {
+        max-width: 545px;
+    }
+    .contacts{
+        padding-bottom: 400px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .contacts {
+        padding-bottom: 200px;
+    }
+    .footer__content {
+        max-width: 565px;
+    }
+    .sertif__content{
+        padding-left: 420px;
+    }
+    .povar{
+        padding-bottom: 210px;
+        padding-top: 320px;
+    }
+    .sostav__left {
+        max-width: 310px;
+    }
+    .sostav__element {
+        max-width: 200px;
+    }
+    .sostav__right {
+        max-width: 310px;
+    }
+    .header__nav {
+        padding-left: 48px;
+        padding-top: 0px
+    }
+    .header .container{
+        padding: 30px 1px 5px 5px;
+    }
+    .header__nav li:not(:last-child){
+        margin-right: 25px;
+    }
+    .header__inst {
+        padding-top: 0px;
+        padding-right: 10px;
+    }
+    .firstscreen .container {
+        height: 850px;
+    }
+    .sostav .container {
+        padding: 0 8px;
+    }
+    .aboutus .container{
+        padding: 0 10px;
+    }
+    .aboutus__content-pic {
+        overflow: hidden;
+        height: 523px;
+        width: 354px;
+    }
+    .aboutus__content-right {
+        padding-top: 40px;
+    }
+    .prod__content{
+        flex-direction: column;
+        padding-left: 230px;
+    }
+    .prod__left-video{
+        display: none;
+    }
+    .prod__right{
+        padding-top: 0px;
+    }
+    .prod__right-desc{
+     padding-bottom: 30px;
+    }
+    .quality__content {
+        padding-left:230px;
+    }
+    .footer__content-wrap{
+        flex-direction: column;
+    }
+    .footer__content {
+        max-width: 305px;
+    }
+    .footer__content-zavod{
+        justify-content: flex-start;
+    }
+    .footer__content{
+        padding-top: 60px;
+    }
+    .footer__content-block:first-child{
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .popup__content-video{
+        width: 750px;
+    }
+    .perks__bg{
+        display: none;
+    }
+   
+    .fasofka{
+        display: none;
+    }
+    .fasofkamob{
+        display: block;
+    }
+    .logistic__desc p{
+        max-width:1000px;
+        padding-right: 30px;
+    }
+    .logistic__perks{
+        padding-right: 10px;
+    }
+    .sertif__content{
+        padding-left: 390px;
+    }
+    .sertif__content-block{
+        height: 420px;
+    }
+    .sostav__left {
+        max-width: 290px;
+    }
+    .sostav__element {
+        max-width: 190px;
+    }
+    .sostav__right {
+        max-width: 280px;
+    }
+    .firstscreen__logo{
+        width: 97%;
+    }
+    .firstscreen h2{
+        left: 10px;
+        top: 200px;
+    }
+    .firstscreen__logo{
+        left: 14px;
+        top: 300px;
+    }
+    .firstscreen__color{
+        height: 446px;
+    }
+    .firstscreen .container {
+        height: 765px;
+    }
+    .about h2 {
+        font-weight: bold;
+        font-size: 99px;
+        line-height: 107px;
+        position: absolute;
+        top: -113px;
+        left: 13px;
+    }
+    .about__logo {
+        top: -221px;
+        left: 13px;
+    }
+    
+}
+@media screen and (max-width: 955px){
+    .logistic__perks{
+        flex-direction: column;
+        padding-top: 50px;
+        grid-gap: 20px;
+        padding-left: 0;
+    }
+    .logistic__perks-block{
+        max-width: 500px;
+    }
+    .sostav__bg{
+        display: none;
+    }
+    .sertif__content{
+        padding-left: 350px;
+    }
+
+    .firstscreen__logo{
+        width: 95%;
+    }
+    .firstscreen h2{
+        font-size: 77px;
+    }
+    .header__nav {
+        padding-left: 28px;
+        padding-top: 0px
+    }
+    .header .container{
+        padding: 30px 1px 5px 5px;
+    }
+    .header__nav li:not(:last-child){
+        margin-right: 22px;
+    }
+    .firstscreen .container {
+        height: 700px;
+    }
+    .mobBanka{
+        padding-top: 120px;
+    }
+    .mobBanka img{
+        width: 700px;
+    }
+    .perks .container{
+        grid-column-gap: 350px;
+    }
+    .aboutus__content-left {
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 890px){
+    .popup__content-video{
+        width: 650px;
+    }
+    .popup__content-video iframe{
+        height: 490px;
+    }
+    .aboutus__content-pic {
+        overflow: hidden;
+        height: 250px;
+        width: 173px;
+    }
+    .sertif__content-block:not(:last-child) {
+        margin-right: 25px;
+    }
+    .sertif__content-block{
+        height: 380px;
+    }
+    .aboutus__control2{
+        display: flex;transform: scale(1,1);justify-content: flex-start;
+    }
+    .aboutus__control2 svg{ 
+width: 70px;
+    }
+    .aboutus__control-left {
+        margin-right: 20px;
+    }
+    .aboutus__content{
+        padding-top: 50px;
+    }
+    .aboutus__control1{
+        display: none;
+    }
+    .povar__bg{
+        width: 700px;
+    }
+    .perks .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .perks__block{
+        padding-bottom: 45px;
+        padding-left: 0px;
+        max-width: 350px
+    }
+    .perks{
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+    .perks__block:nth-child(2) {
+        padding-left: 0px;
+    }
+    .perks__banka{
+        top: 48%;
+        width: 600px;
+        left: unset;
+        right: -500px;
+    }
+
+    .sostav__left {
+        max-width: 280px;
+    }
+
+    .sostav__right {
+        max-width: 270px;
+    }
+    .mobBanka{
+        padding-top: 100px;
+    }
+    .mobBanka img{
+        width: 650px;
+    }
+    .firstscreen h2{
+        font-size: 69px;
+    }
+    .firstscreen .container {
+        height: 600px;
+    }
+    .header__nav{
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 100%;
+        padding-left: 0px;
+        background: var(--accent-color);
+        overflow: hidden;
+        transition: 0.5s;
+        display: flex;
+        
+        
+    }
+    .about h2 {
+        font-size: 91px;
+        line-height: 98px;
+        top: -123px;
+        left: 10px;
+    }
+    .about__desc{
+        padding-left: 260px;
+    }
+    .header__nav li:not(:last-child){
+        margin-right: 0px;
+    }
+    .header__inst{
+        display: none;
+    }
+    .header__mobbtn{
+        display: block;
+        margin-right: 20px;
+    }
+    .header .container{
+        padding: 30px 1px 5px 5px;
+    }
+    .header .container{
+        padding: 12px 1px 5px 5px;
+    }
+    .header__nav ul{
+        flex-direction: column;
+        align-items: center;
+        color: black !important;
+    }
+    .header__nav-item{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .header__nav-exit svg{
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 15px;
+        right: 15px;
+    }
+    .header__nav-logo{
+        display: block;
+    }
+    .fasofkamob__block{
+        padding-right: 100px;
+    }
+    .fasofkamob__title h2{
+        font-size: 206px;
+        line-height: 226px;
+        color: #191A1C;
+    }
+    .footer__pic{
+        overflow: hidden;
+        left: -270px;
+    }
+}
+@media screen and (max-width: 870px){
+    .fasofkamob__block{
+        padding-right: 50px;
+    }
+    .sertif__content{
+        padding-left: 290px;
+    }
+ .sostav__banka{
+        display: none;
+    }
+    .sostav__left {
+        max-width: 320px;
+    }
+
+    .sostav__right {
+        max-width: 320px;
+    }
+}
+@media screen and (max-width: 870px){
+    .perks__banka {
+        width: 550px;
+    }
+  
+    
+}
+@media screen and (max-width: 810px){
+    .povar__bg{
+        width: 660px;
+    }.povar {
+        padding-bottom: 180px;
+        padding-top: 290px;
+    }
+    .sertif__title h2{
+        padding-left: 0;
+    }
+    
+}
+@media screen and (max-width: 770px){
+    .povar__bg{
+        width: 630px;
+    }.povar {
+        padding-bottom: 160px;
+        padding-top: 270px;
+    }
+    .sostav__left {
+        max-width: 800px;
+    }
+
+    .sostav__right {
+        max-width: 800px;
+    }
+    .sostav .container{
+        flex-direction: column;
+        padding: 0 108px;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+    .sostav__bgy{
+        margin-right: 0px;
+    }
+    .sostav__element {
+        max-width: 310px;
+    }
+    .sostav {
+        padding-top: 16px;
+        padding-bottom: 70px;
+    }
+    .sostav__desc p {
+        line-height: 24px;
+    }
+    .sostav__left{
+        padding-left: 0;
+        padding-bottom: 105px;
+    }
+    .mobBanka{
+        padding-top: 70px;
+    }
+    .mobBanka img{
+        width: 600px;
+    }
+    .about__desc {
+        padding-left: 254px;
+    }
+    .about h2 {
+        font-size: 74px;
+        line-height: 80px;
+        top: -53px;
+        left: 10px;
+        letter-spacing: 0.03em;
+    }
+    .about__logo {
+        width: 157px;
+        top: -120px;
+        left: 13px;
+    }
+    .firstscreen .container {
+        height: 365px;
+    }
+    .about__desc {
+        padding-left: 274px;
+        font-size: 16px;
+line-height: 24px;
+    }
+    .firstscreen__logo{
+        width: 96%;
+    }
+    .firstscreen h2{
+        left: 10px;
+        top: 110px;
+    }
+    .firstscreen__logo{
+        left: 14px;
+        top: 180px;
+    }
+    .firstscreen h2{
+    font-size: 50px;
+
+    }
+    .firstscreen__color{
+        height: 286px;
+    }
+    .sertif__title h2 {
+        font-size: 89px;
+    }
+    .contacts__form {
+        max-width: 1077px;
+    }
+    .contacts__title h2{
+        font-size: 88px;
+      
+    }
+    .popup__content-video{
+        width: 550px;
+    }
+    .popup__content-video iframe{
+        height: 470px;
+    }
+    
+}
+@media screen and (max-width: 710px){
+    .footer__pic{
+        overflow: hidden;
+        left: -340px;
+    }
+    
+    .fasofkamob__title h2{
+        font-size: 176px;
+        line-height: 196px;
+    }
+    .fasofkamob__block{
+        padding-right: 10px;
+    }
+    .logistic__title h2 {
+        font-size: 89px;
+        line-height: 121px;
+    }
+    
+    .sertif__title h2 {
+        font-size: 79px;
+    }
+    .sertif__content{
+        padding-left: 250px;
+    }
+    .prod__content{
+      
+        padding-left: 0px;
+    }
+    .aboutus__content{
+        padding-top: 50px;
+        flex-direction: column;
+    }
+    .aboutus__content-pic{
+        width: 100%;
+        height: 500px;
+    }
+    .perks__banka {
+        width: 520px;
+    }
+    .aboutus__content-left {
+        margin-right: 0px;
+    }
+    .aboutus__content-left {
+        margin-right: 0px;
+    }
+    .aboutus__content-right{
+        max-width: 700px;
+    }
+    .aboutus__control2{
+        display: none;
+    }
+    .aboutus__control3{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .aboutus__control3 svg{
+        width: 70px;
+        height: 70px;
+    }
+    .aboutus {
+        padding-top: 67px;
+        padding-bottom: 60px;
+    }
+    .about__desc {
+        padding-left: 214px;
+    }
+    .mobBanka img{
+        width: 550px;
+    }
+    .sostav .container{
+        padding: 0 60px;
+    }
+    .povar__bg{
+        width: 530px;
+    }.povar {
+        padding-bottom: 140px;
+        padding-top: 240px;
+    }
+    .cheese__title h2{
+        padding-left: 10px;
+    }
+    .quality__content {
+        padding-left:0px;
+    }
+    .quality__text p{
+        font-size: 14px;
+    line-height: 20px;
+    }
+    .prod__right-desc p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .quality__title h2{
+        font-size: 40px;
+        line-height: 32px;
+        padding-left: 0;
+    }
+    .prod__title h2{
+        font-size: 40px;
+        line-height: 32px;
+        padding-left: 0;
+    }
+    .quality__content{
+        padding-top: 30px;
+    }
+    .quality__pic {
+        padding-top: 35px;
+    }
+    .prod__left{
+        margin-top: 40px;
+    }
+    .quality{
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width: 650px){
+    .fasofkamob__block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .contacts__title h2{
+        font-size: 78px;
+      
+    }
+    .popup__content-video{
+        width: 450px;
+    }
+    .popup__content-video iframe{
+        height: 380px;
+    }
+    
+}
+
+@media screen and (max-width: 630px){
+    .contacts__title h2{
+        font-size: 73px;
+        line-height: 83px;
+      
+    }
+    .sertif__content-blockEmp {
+        width: 330px;
+    }    
+    .sertif__content{
+        padding-left: 200px;
+    }
+    .about__desc {
+        padding-top: 130px;
+        padding-left: 0px;
+    }
+    .mobBanka{
+        padding-top: 60px;
+    }
+    .mobBanka img{
+        width: 500px;
+    }
+    .perks__banka {
+        width: 470px;
+    }
+    .povar .container {
+        padding: 0 5px;
+    }
+    .povar__block{
+        padding-left: 5px;
+    }
+    .aboutus__content-left {
+        padding-left: 0px;
+    }
+    .cheese__imgs img {
+        border-radius: 8px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 600px){
+    .footer__pic img{
+        width: 330px;
+    }
+    .footer__pic{
+        left: -120px;
+        top: -90px;
+    }
+    .footer .container{
+        justify-content: flex-start;
+        padding-top: 170px;
+    }
+    .povar {
+        padding-bottom: 120px;
+        padding-top: 170px;
+    }
+    .aboutus__content-right{
+        padding-top: 30px;
+    }
+    .povar__bg {
+        width: 500px;
+    }
+    .perks__banka {
+        width: 440px;
+    }
+    .firstscreen h2 {
+        font-size: 40px;
+    }
+    .firstscreen__logo{
+        width: 95%;
+    }
+    .sostav .container{
+        padding: 0 45px;
+    }
+    .sostav__element {
+        max-width: 280px;
+    }
+    .aboutus__content-pic {
+        width: 100%;
+        height: 450px;
+    }
+    .aboutus__title h2 {
+        font-size: 60px;
+line-height: 72px;
+    }
+    .aboutus__content-desc p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .aboutus__content-name h3{
+        font-size: 40px;
+        line-height: 32px;
+        padding-bottom: 0px;
+    }
+    .aboutus__content-subTitle h4{
+        font-size: 14px;
+        line-height: 32px;
+        padding-bottom: 5px;
+    }
+    .fasofkamob__content{
+        padding-top: 125px;
+    }
+}
+@media screen and (max-width: 580px){
+    .sertif__content-block{
+        height: 320px;
+        
+    }
+    .sertif__content-block:not(:last-child){
+        margin-right: 15px;
+    }
+    .povar {
+        padding-bottom: 550px;
+        padding-top: 190px;
+    }
+    .povar__block {
+    max-width: 350px;
+}
+
+    .povar__bg{
+        left: 50%;
+        right: unset;
+        transform: translate(-50%,0);
+    }
+    .povar__block {
+        max-width: 650px;
+    }
+    .cheese__imgs-item:not(:last-child) {
+        margin-right: 10px;
+    }
+    .cheese__imgs{
+        padding-left: 10px;
+    }
+    .cheese__title h2{
+        font-size: 60px;
+        line-height: 100px;
+        padding-left: 10px;
+    }
+    .cheese{
+        padding-top: 40px;
+    }
+    .cheese__title {
+        margin-bottom: 25px;
+    }
+    .sertif__title h2{
+        font-size: 60px;
+    }
+    
+}
+@media screen and (max-width: 535px){
+    .contacts__title h2{
+        font-size: 65px;
+        line-height: 83px;
+      
+    }
+    .perks {
+        padding-top: 280px;
+        overflow:visible;
+    }
+    .perks__banka {
+        width: 300px;
+        right: 0;
+        left: 50%;
+        top: 10%;
+    }
+    .perks__block{
+        max-width: 600px;
+    }
+    .povar__bg {
+        width: 430px;
+    }
+    .povar {
+        padding-bottom: 500px;
+        padding-top: 170px;
+        
+    }
+    .sertif__content {
+        padding-left: 100px;
+    }
+    .fasofkamob__title h2{
+        font-size: 136px;
+        line-height: 146px;
+    }
+    .fasofkamob__title h2 {
+        font-size: 146px;
+        line-height: 196px;
+    }
+    .contacts__left {
+        padding-top: 90px;
+    }
+    .contacts__form {
+        padding-top: 50px;
+    }
+    .contacts {
+        padding-bottom: 100px;
+    }
+    .sertif__content-blockEmp {
+        width: 80px;
+    }   
+}
+@media screen and (max-width: 500px){
+    .popup__content-video{
+        width: 350px;
+    }
+    .popup__content-video iframe{
+        height: 310px;
+    }
+    .firstscreen h2 {
+        font-size: 35px;
+    }
+    .firstscreen__logo{
+        width: 94%;
+    }
+    .about h2 {
+        font-size: 66px;
+    }
+    .about__logo {
+        width: 137px;
+    }
+    .mobBanka{
+        padding-top: 55px;
+    }
+    .mobBanka img{
+        width: 420px;
+    }
+    .sostav .container{
+        padding: 0 35px;
+    }
+    .sostav__element {
+        max-width: 210px;
+    }
+    .logistic__desc p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 10px;
+    }
+    .logistic__title h2{
+        font-size: 60px;
+        line-height: 80px;
+        padding-left: 0;;
+    }
+    .logistic .container{
+        padding: 0 10px;
+    }
+    .sertif{
+        padding-top: 90px;
+    }
+    .sertif__content{
+        padding-top: 60px;
+    }
+    .fasofkamob__title h2 {
+        font-size: 126px;
+        line-height: 196px;
+    }
+    .contacts__title h2{
+        font-size: 59px;
+        line-height: 73px;
+      
+    }
+    
+}
+@media screen and (max-width: 425px){
+    .popup__content-video{
+        width: 260px;
+    }
+    .popup__content-video iframe{
+        height: 210px;
+    }
+    .contacts__title h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .fasofkamob__title h2 {
+        font-size: 96px;
+        line-height: 196px;
+    }
+    .povar__block{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .perks__banka {
+        width: 300px;
+    }
+    .sostav__desc p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sostav .container{
+        padding: 0 25px;
+    }
+    .sostav__bgy-item{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sostav__left {
+        padding-bottom: 85px;
+    }
+    .about h2 {
+        font-size: 50px;
+        line-height: 44px;
+    }
+    .about__logo {
+        width: 117px;
+    }
+    
+    .firstscreen h2 {
+        font-size: 47px;
+        line-height: 49px;
+    }
+    .firstscreen__logo{
+        width: 92%;
+    }
+    .firstscreen h2{
+        left: 10px;
+        top: 163px;
+    }
+    .firstscreen__logo{
+        left: 14px;
+        top: 280px;
+    }
+    .firstscreen__color{
+        height: 326px;
+    }
+    .about{
+        padding-top: 220px;
+    }
+    .about h2 {
+        font-size: 42px;
+        line-height: 44px;
+        top: 18px;
+        left: 10px;
+        letter-spacing: 0.03em;
+    }
+    .about__logo {
+        width: 127px;
+        top: -50px;
+        left: 13px;
+    }
+    .about .container {
+        padding: 0 10px;
+    }
+    .mobBanka{
+        padding-top: 47px;
+    }
+    .povar__bg {
+        width: 390px;
+    }
+    .povar {
+        padding-bottom: 440px;
+        padding-top: 140px;
+    }
+    .sertif__content {
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 370px){
+    .contacts__title h2 {
+        font-size: 47px;
+        line-height: 60px;
+    }
+    .sostav .container{
+        padding: 0 15px;
+    }
+    .sostav {
+        padding-top: 0px;
+        padding-bottom: 120px;
+    }
+    .perks {
+        padding-top: 330px;
+    }
+    .sostav__left {
+        padding-bottom: 55px;
+    }
+    .sostav__title {
+        padding-bottom: 26px;
+    }
+    .sostav__title {
+        padding-bottom: 30px;
+    }
+    .povar__bg {
+        width: 350px;
+    }
+    .povar {
+        padding-bottom: 380px;
+        padding-top: 110px;
+    }
+    .sertif__title h2{
+        font-size: 55px;
+    }
+    
+}
+@media screen and (max-width: 350px){
+    .sostav .container{
+        padding: 0 8px;
+    }
+    .about{
+        padding-top: 190px;
+    }
+    
+    .firstscreen__logo{
+        width: 92%;
+    }
+    .about__desc{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .mobBanka .container{
+        padding-right: 60px;
+    }
+    
+}
