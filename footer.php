@@ -1,7 +1,7 @@
 <footer class="footer">
         <div class="container">
             <div class="footer__pic">
-                <img src="./Source/other/footerbg.png" alt="сыр">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/Source/other/footerbg.png" alt="сыр">
             </div>
             <div class="footer__content">
                 <div class="footer__content-wrap">
@@ -80,17 +80,19 @@
                     <h2>Задать  вопрос</h2>
                 </div>
                 <div class="popup__form main__btn">
-                    <form action="">
-                        <input type="text" placeholder="Ваше имя">
-                        <input type="text" placeholder="Ваш телефон">
-                        <input type="text" placeholder="Почта">
-                        <textarea name="" id="" placeholder="Вопрос"></textarea>
+                    <form action="<?php echo admin_url('admin-ajax.php?action=send_mail')?>">
+                        <input name="name" type="text" placeholder="Ваше имя">
+                        <input name="phone" class="phone" type="text" placeholder="Ваш телефон">
+                        <input name="mail" type="email" placeholder="Почта">
+                        <textarea name="comment" name="" id="" placeholder="Вопрос"></textarea>
                         <button>Отправить</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
+    <?php wp_footer();?>
     <script src="JS/anim.js"></script>
     <script src="JS/povarSlider.js"></script>
     <script src="JS/main.js"></script>

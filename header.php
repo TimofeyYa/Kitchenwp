@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./Fonts/Stolzl/stylesheet.css">
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/main.css">
-    <link rel="stylesheet" href="./CSS/media.css">
+    
+    <?php wp_head();?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/CSS/media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.0/lottie.js'></script>
 </head>
@@ -19,7 +21,7 @@
     <header class="header">
         <div class="container">
             <div class="header__logo">
-                <img src="./Source/other/logo.png" alt="Logo">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/" alt="Logo">
             </div>
             <nav class="header__nav">
                 <ul>
@@ -30,7 +32,7 @@
                     <li class="header__nav-item" id="btnContacts">Контакты</li>
                     <li class="header__nav-item header__nav-itemCost" id="btnBuy">Заказать</li>
                 </ul>
-                <img src="./Source/other/logo.png" class="header__nav-logo" alt="Logo">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/Source/other/logo.png" class="header__nav-logo" alt="Logo">
                 <div class="header__nav-exit">
                     <svg id="Layer_1" height="512" viewBox="0 0 150 150" width="512" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m115.736 140h-81.472a24.292 24.292 0 0 1 -24.264-24.264v-81.472a24.292 24.292 0 0 1 24.264-24.264h81.472a24.292 24.292 0 0 1 24.264 24.264v81.472a24.292 24.292 0 0 1 -24.264 24.264zm-81.472-128a22.288 22.288 0 0 0 -22.264 22.264v81.472a22.288 22.288 0 0 0 22.264 22.264h81.472a22.289 22.289 0 0 0 22.264-22.264v-81.472a22.289 22.289 0 0 0 -22.264-22.264z"/><path d="m38.667 112.333a1 1 0 0 1 -.708-1.707l72.667-72.666a1 1 0 0 1 1.414 1.414l-72.666 72.666a1 1 0 0 1 -.707.293z"/><path d="m111.333 112.333a1 1 0 0 1 -.707-.293l-72.667-72.666a1 1 0 1 1 1.415-1.414l72.666 72.666a1 1 0 0 1 -.707 1.707z"/></svg>
                 </div>

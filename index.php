@@ -9,14 +9,14 @@
             <div class="container">
                 <h1 class="visually-hidden">Kitchen</h1>
                 <h2>Новый бренд творожного сыра</h2>
-                <img class="firstscreen__logo" src="./Source/firstscreen/logo.png" alt="logo">
+                <img class="firstscreen__logo" src="<?php echo get_template_directory_uri() ?>/assets/Source/firstscreen/logo.png" alt="logo">
                 
             </div>
             <div class="firstscreen__color"></div>
         </section>
         <section class="about" id="items">
             <div class="container">
-                <img class="about__logo" src="./Source/about/logo.png" alt="">
+                <img class="about__logo" src="<?php echo get_template_directory_uri() ?>/assets/Source/about/logo.png" alt="">
                 <h2>
                     эксперт вашей<br>кухни!
                 </h2>
@@ -38,7 +38,7 @@
         </section>
         <section class="mobBanka">
             <div class="container">
-                <img src="./Source/other/banka.png" alt="">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/Source/other/banka.png" alt="">
             </div>
         </section>
         <section class="sostav">
@@ -80,12 +80,12 @@
                     </div>
                 </div>
                 <div class="sostav__banka">
-                    <img src="./Source/other/banka2.png" alt="">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/Source/other/banka2.png" alt="">
                 </div>
                 <div class="sostav__bg">
-                    <img class="sostav__bg-el1" src="./Source/sostav/el1.png" alt="">
-                    <img class="sostav__bg-el2" src="./Source/sostav/el2.png" alt="">
-                    <img class="sostav__bg-el3" src="./Source/sostav/el3.png" alt="">
+                    <img class="sostav__bg-el1" src="<?php echo get_template_directory_uri() ?>/assets/Source/sostav/el1.png" alt="">
+                    <img class="sostav__bg-el2" src="<?php echo get_template_directory_uri() ?>/assets/Source/sostav/el2.png" alt="">
+                    <img class="sostav__bg-el3" src="<?php echo get_template_directory_uri() ?>/assets/Source/sostav/el3.png" alt="">
                 </div>
             </div>
             
@@ -131,11 +131,11 @@
                 </div>
             </div>
             <div class="perks__bg">
-                <img class="perks__bg-el1" src="./Source/perks/el1.png" alt="">
-                <img class="perks__bg-el2" id="secEl" src="./Source/perks/el2.png" alt="">
-                <img class="perks__bg-el3" src="./Source/perks/el3.png" alt="">
+                <img class="perks__bg-el1" src="<?php echo get_template_directory_uri() ?>/assets/Source/perks/el1.png" alt="">
+                <img class="perks__bg-el2" id="secEl" src="<?php echo get_template_directory_uri() ?>/assets/Source/perks/el2.png" alt="">
+                <img class="perks__bg-el3" src="<?php echo get_template_directory_uri() ?>/assets/Source/perks/el3.png" alt="">
             </div>
-            <img class="perks__banka" src="./Source/other/banka2.png" alt="">
+            <img class="perks__banka" src="<?php echo get_template_directory_uri() ?>/assets/Source/other/banka2.png" alt="">
         </section>
         <section class="video">
 
@@ -159,8 +159,8 @@
                     </div>
                 </div>
             </div>
-            <img src="./Source/povar/povar.png" class="povar__bg" alt="">
-            <img src="./Source/povar/logo.png" class="povar__logo" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/povar/povar.png" class="povar__bg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/povar/logo.png" class="povar__logo" alt="">
             <div class="povar__black"></div>
         </section>
 
@@ -191,9 +191,9 @@
                 <div class="aboutus__content">
                     <div class="aboutus__content-left">
                         <div class="aboutus__content-pic">
-                            <img src="./Source/aboutus/povar.jpg" alt="">
-                            <img src="./Source/aboutus/povar1.jpg" alt="">
-                            <img src="./Source/aboutus/povar.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/aboutus/povar.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/aboutus/povar1.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/aboutus/povar.jpg" alt="">
                         </div>
                         <div class="aboutus__control aboutus__control2">
                             <div class="aboutus__control-item aboutus__control-left">
@@ -282,9 +282,9 @@
                     <h2>Сыр в деле</h2>
                 </div>
                 <div class="cheese__imgs">
-                    <img class="cheese__imgs-item" src="./Source/cheese/img1.jpg" alt="">
-                    <img class="cheese__imgs-item" src="./Source/cheese/img2.jpg" alt="">
-                    <img class="cheese__imgs-item" src="./Source/cheese/img3.jpg" alt="">
+                    <img class="cheese__imgs-item" src="<?php echo get_template_directory_uri() ?>/assets/Source/cheese/img1.jpg" alt="">
+                    <img class="cheese__imgs-item" src="<?php echo get_template_directory_uri() ?>/assets/Source/cheese/img2.jpg" alt="">
+                    <img class="cheese__imgs-item" src="<?php echo get_template_directory_uri() ?>/assets/Source/cheese/img3.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -307,7 +307,7 @@
                             <h3>посомтрите,<br> как производится KITCHN!</h3>
                         </div>
                         <div class="prod__left-video">
-                            <img src="./Source/prod/pic.jpg" alt="Видео">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/prod/pic.jpg" alt="Видео">
                         </div>
                     </div>
                     <div class="prod__right">
@@ -322,7 +322,7 @@
                                 consequat. Euismod molestie mattis eu iaculis ornare elementum.</p>
                         </div>
                         <div class="prod__right-pic">
-                            <img src="./Source/prod/pic.jpg" alt="Картинка">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/prod/pic.jpg" alt="Картинка">
                         </div>
                     </div>
                 </div>
@@ -346,7 +346,7 @@
                             mattis eu iaculis ornare elementum.</p>
                     </div>
                     <div class="quality__pic">
-                        <img src="./Source/other/controlq.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/Source/other/controlq.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -361,22 +361,22 @@
             <div class="sertif__content">
                 <div class="sertif__content-wrap">
                     <div class="sertif__content-block">
-                        <img src="./Source/sertif/sert.jpg" alt="Сертификат">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/Source/sertif/sert.jpg" alt="Сертификат">
                     </div>
                     <div class="sertif__content-block">
-                        <img src="./Source/sertif/sert.jpg" alt="Сертификат">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/Source/sertif/sert.jpg" alt="Сертификат">
                     </div>
                     <div class="sertif__content-block">
-                        <img src="./Source/sertif/sert.jpg" alt="Сертификат">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/Source/sertif/sert.jpg" alt="Сертификат">
                     </div>
                     <div class="sertif__content-block">
-                        <img src="./Source/sertif/sert.jpg" alt="Сертификат">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/Source/sertif/sert.jpg" alt="Сертификат">
                     </div>
                     <div class="sertif__content-block">
-                        <img src="./Source/sertif/sert.jpg" alt="Сертификат">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/Source/sertif/sert.jpg" alt="Сертификат">
                     </div>
                     <div class="sertif__content-block">
-                        <img src="./Source/sertif/sert.jpg" alt="Сертификат">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/Source/sertif/sert.jpg" alt="Сертификат">
                     </div>
                     <div class="sertif__content-block">
                         <div class="sertif__content-blockEmp"></div>
@@ -427,7 +427,7 @@
                 <div class="fasofka__content">
                     <div class="fasofka__content-block">
                         <div class="fasofka__content-pic">
-                            <img src="./Source/fasofka/banka1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/fasofka/banka1.png" alt="">
                             <h3>2 кг</h3>
                         </div>
                         <div class="fasofka__content-txt">
@@ -437,7 +437,7 @@
                     </div>
                     <div class="fasofka__content-block">
                         <div class="fasofka__content-pic">
-                            <img src="./Source/fasofka/banka2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/fasofka/banka2.png" alt="">
                             <h3>5 кг</h3>
                         </div>
                         <div class="fasofka__content-txt">
@@ -447,7 +447,7 @@
                     </div>
                     <div class="fasofka__content-block">
                         <div class="fasofka__content-pic">
-                            <img src="./Source/fasofka/banka3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/Source/fasofka/banka3.png" alt="">
                             <h3>10 кг</h3>
                         </div>
                         <div class="fasofka__content-txt">
@@ -526,7 +526,7 @@
                     <div class="fasofkamob__block">
                         <div class="fasofkamob__block-pic">
                             <div class="fasofka__content-pic">
-                                <img src="./Source/fasofka/banka1.png" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/Source/fasofka/banka1.png" alt="">
                                 <h3>2 кг</h3>
                             </div>
                         </div>
@@ -556,7 +556,7 @@
                     <div class="fasofkamob__block">
                         <div class="fasofkamob__block-pic">
                             <div class="fasofka__content-pic">
-                                <img src="./Source/fasofka/banka2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/Source/fasofka/banka2.png" alt="">
                                 <h3>5 кг</h3>
                             </div>
                         </div>
@@ -586,7 +586,7 @@
                     <div class="fasofkamob__block">
                         <div class="fasofkamob__block-pic">
                             <div class="fasofka__content-pic">
-                                <img src="./Source/fasofka/banka3.png" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/Source/fasofka/banka3.png" alt="">
                                 <h3>10 кг</h3>
                             </div>
                         </div>
@@ -629,10 +629,10 @@
                 </div>
                 <div class="contacts__right">
                     <div class="contacts__form main__btn">
-                        <form action="">
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="text" placeholder="Ваш телефон">
-                            <input type="text" placeholder="Почта">
+                        <form action="<?php echo admin_url('admin-ajax.php?action=send_mail')?>">
+                            <input name="name" type="text" placeholder="Ваше имя">
+                            <input name="phone" class="phone" type="text" placeholder="Ваш телефон">
+                            <input name="mail" type="mail" placeholder="Почта">
                             <button>Отправить</button>
                         </form>
                     </div>

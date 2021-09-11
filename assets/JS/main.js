@@ -44,7 +44,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
     if (window.screen.width < 600){
         sostavPlus = -220;
     }
+
+    let mainLogoLink = document.querySelector('.header__logo img').src
     console.log(whiteHeader,blackHeader);
+    header__logo.src =mainLogoLink + 'Source/other/logo.png';
     window.addEventListener('scroll', ()=>{
         console.log(sostav.offsetTop);
         if (window.scrollY > 100){
@@ -54,28 +57,28 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }
         if (window.scrollY > whiteHeader[0] && window.scrollY < blackHeader[0]){
             headerContent.classList.remove('header__invers');
-            header__logo.src = './Source/other/logo.png';
+            header__logo.src =mainLogoLink + 'Source/other/logo.png';
         }
         if (window.scrollY > blackHeader[0] && window.scrollY < whiteHeader[1]){
             headerContent.classList.add('header__invers');
-            header__logo.src = './Source/other/logow.png';
+            header__logo.src = mainLogoLink + 'Source/other/logow.png';
         }
         if (window.scrollY > whiteHeader[1] && window.scrollY < blackHeader[1]){
             headerContent.classList.remove('header__invers');
-            header__logo.src = './Source/other/logo.png';
+            header__logo.src = mainLogoLink + 'Source/other/logo.png';
         }
         if (window.scrollY > blackHeader[1] && window.scrollY < whiteHeader[2]){
             headerContent.classList.add('header__invers');
-            header__logo.src = './Source/other/logow.png';
+            header__logo.src = mainLogoLink + 'Source/other/logow.png';
         }
         if (window.scrollY > whiteHeader[2] && window.scrollY < blackHeader[2]){
             headerContent.classList.remove('header__invers');
-            header__logo.src = './Source/other/logo.png';
+            header__logo.src = mainLogoLink + 'Source/other/logo.png';
         }
         if (window.scrollY > blackHeader[2] && window.scrollY < whiteHeader[3]){
             headerContent.classList.add('header__invers');
             headerContent.classList.add('header__invers-black');
-            header__logo.src = './Source/other/logow.png';
+            header__logo.src =mainLogoLink +  'Source/other/logow.png';
         }
         if (window.scrollY > blackHeader[2] && window.scrollY < darkHeader[0]){  
             headerContent.classList.remove('header__invers-black');
@@ -83,12 +86,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }
         if (window.scrollY > darkHeader[0] && window.scrollY < whiteHeader[3]){
             headerContent.classList.add('header__invers-black');
-            header__logo.src = './Source/other/logow.png';
+            header__logo.src =mainLogoLink +  'Source/other/logow.png';
         }
         if (window.scrollY >  whiteHeader[3]){
             headerContent.classList.remove('header__invers');
             headerContent.classList.remove('header__invers-black');
-            header__logo.src = './Source/other/logo.png';
+            header__logo.src =mainLogoLink +  'Source/other/logo.png';
         }
 
 
@@ -218,5 +221,31 @@ window.addEventListener('DOMContentLoaded', ()=>{
         
     queBtn.addEventListener('click', ()=>{
         popForm.style.display = 'flex';
+    })
+
+
+    // работа с формами
+
+
+    $(".phone").mask("+7(999) 999-9999");
+    const forms = document.querySelectorAll('form');
+
+    forms.forEach(item =>{
+        item.addEventListener('submit', (e)=>{
+            e.preventDefault();
+            let action = e.currentTarget.getAttribute('action');
+            const formData = new FormData(item);
+
+            let request = new XMLHttpRequest();
+
+            request.open('POST', action,true);
+            request.send(formData);
+
+            request.onreadystatechange = ()=> {
+                if(request.status != 200){
+                    alert('Произошла ошибка');
+                }
+            }
+        })
     })
 })

@@ -1,27 +1,26 @@
 <?php
 
 function strategy_assets() {
-wp_enqueue_style( 'Circe', get_template_directory_uri() . '/assets/Fonts/Circe.css' );
+wp_enqueue_style( 'BebasNeue', get_template_directory_uri() . '/assets/Fonts/BebasNeue/stylesheet.css' );
 
-wp_enqueue_style( 'GOST', get_template_directory_uri() . '/assets/Fonts/GOST.css' );
+wp_enqueue_style( 'Stolzl', get_template_directory_uri() . '/assets/Fonts/Stolzl/stylesheet.css' );
 
 wp_enqueue_style( 'reset', get_template_directory_uri() . '/assets/CSS/reset.css' );
-
-wp_enqueue_style( 'normalize', get_template_directory_uri() . '/assets/CSS/normalize.css' );
 
 wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/CSS/main.css' );
 
 wp_enqueue_style( 'media', get_template_directory_uri() . '/assets/CSS/media.css' );
 
-wp_enqueue_script( 'system', get_template_directory_uri() . '/assets/JS/system.js', array(), '20151215', true );
+wp_enqueue_script( 'system', get_template_directory_uri() . '/assets/JS/anim.js', array(), '20151215', true );
 
-wp_enqueue_script( 'works', get_template_directory_uri() . 'JS/works.js', array(), '20151215', true );
+wp_enqueue_script( 'works', get_template_directory_uri() . '/assets/JS/main.js', array(), '20151215', true );
 
-wp_enqueue_script( 'stonk', get_template_directory_uri() . '/assets/JS/stonk.js', array(), '20151215', true );
+wp_enqueue_script( 'stonk', get_template_directory_uri() . '/assets/JS/povarSlider.js', array(), '20151215', true );
 
-wp_enqueue_script( 'form', get_template_directory_uri() . '/assets/JS/form.js', array(), '20151215', true );
+wp_enqueue_script( 'form', get_template_directory_uri() . '/assets/JS/serfSlider.js', array(), '20151215', true );
 
-wp_enqueue_script( 'atestats', get_template_directory_uri() . '/assets/JS/atestats.js', array(), '20151215', true );
+wp_enqueue_script( 'phoneInp', get_template_directory_uri() . '/assets/JS/jquery.maskedinput.js', array(), '20151215', true );
+
 
 
 }
@@ -35,39 +34,20 @@ add_action("wp_ajax_nopriv_send_mail", "send_mail");
 function send_mail(){
     $name = $_POST['name'];
     $phone = $_POST['phone'];
-    $plusPhone ='+'.$phone;
+    $mail = $_POST['email'];
+    $comment = $_POST['comment'];
     
-    print_r($_POST);
-
-    $message = 'Клиент '.$name.' заявку, его номер: '.$phone;
-    
-    $token = "1905621045:AAE37TDjaita3SAOHGbQif8OS4WJbtu40RM";
-$chat_id = "-593503131";
-$arr = array(
-  'Имя пользователя: ' => $name,
-  'Телефон: ' => $phone,
-
-);
-
-foreach($arr as $key => $value) {
-  $txt = "<b>".$key."</b> ".$value."%0A";
-};
-$txt = '<b>Оставлена заявка!</b>%0A%0A<b>Имя: </b>'.$name.'%0A<b>Телефон: </b>'.$plusPhone;
-$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-
-if ($sendToTelegram) {
-  echo "Errors Man";
-} else {
-  echo "Error";
-  
-}
-
+  if (!empty($comment)) {
+    $message = 'Оставлена заявка! Имя:'.$name.', телефон: '.$phone.', почта: '.$mail.', вопрос: '.$comment;
+  } else {
+    $message = 'Оставлена заявка! Имя:'.$name.', телефон: '.$phone.', почта: '.$mail;
+  }
     
 
   remove_all_filters( 'wp_mail_from' );
   remove_all_filters( 'wp_mail_from_name' );
 
 
-  wp_mail( 'fireautomatic@yandex.ru', 'Заявка с сайта fireautomatic.com', $message );
+  wp_mail( 'tim02timka@mail.ru', 'Заявка с сайта fireautomatic.com', $message );
   wp_die();
 }
