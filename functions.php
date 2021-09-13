@@ -43,7 +43,10 @@ function send_mail(){
     $message = 'Оставлена заявка! Имя:'.$name.', телефон: '.$phone.', почта: '.$mail;
   }
     
-
+  if (empty($name)) {
+    wp_die();
+  }
+  echo 'OK';
   remove_all_filters( 'wp_mail_from' );
   remove_all_filters( 'wp_mail_from_name' );
 

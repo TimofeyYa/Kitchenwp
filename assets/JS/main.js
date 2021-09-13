@@ -228,8 +228,21 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 
     $(".phone").mask("+7(999) 999-9999");
+    const sender = document.querySelector('.sender');
+    sender.value = '0';
+
+    window.addEventListener('scroll', ()=>{
+        sender.value = '1';
+    })
+
+    window.addEventListener('click', ()=>{
+        sender.value = '1';
+    })
+
     const forms = document.querySelectorAll('form');
 
+
+    
     forms.forEach(item =>{
         item.addEventListener('submit', (e)=>{
             e.preventDefault();
@@ -239,7 +252,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
             let request = new XMLHttpRequest();
 
             request.open('POST', action,true);
-            request.send(formData);
+            if(sender.value == '1'){
+                request.send(formData);
+            }
+            
 
             request.onreadystatechange = ()=> {
                 if(request.status != 200){

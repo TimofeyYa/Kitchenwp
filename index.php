@@ -640,4 +640,5 @@
             </div>
         </section>
     </main>
+    <input type="hidden" value='' class='sender'>
 <?php get_footer();?>
